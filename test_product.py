@@ -7,5 +7,5 @@ def test_product_info():
         "Quantity: 5\n"
         "Price: 799.5"
     )
-    assert product_info("P102", "Keyboard", 5, 799.5)== expected_output
+    assert product_info("P102", "Keyboard", 5, 799.5) == expected_output
      
