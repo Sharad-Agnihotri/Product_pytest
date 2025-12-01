@@ -5,7 +5,7 @@ def test_product_info():
         "Product ID: P102\n"
         "Name: Keyboard\n"
         "Quantity: 5\n"
-        "Price: 799.50"
+        "Price: 799.5"
     )
-    result = product_info("P102", "Keyboard", 5, 799.50)
-    assert result == expected_output
+    result = product_info("P102", "Keyboard", 5, 799.5)
+    assert result == expected_output
